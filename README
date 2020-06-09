@@ -1,0 +1,102 @@
+//
+// ProtoContract: a purchase and sale protocol for electronic commerce.
+// 
+
+This Protocol Contract or ProtoContract system combines the common law
+of contracts with a software protocol to structure and carry out
+electronic commerce, purchase/sale transactions, in a way that is
+intended to be easy, efficient, predictable, and enforceable for
+buyer, seller, and courts.
+
+The protocol implemented within this software tracks and implements
+the facts and stages of a purchase and sale event involving a buyer,
+seller, and judge.  The Judge is a software construct carrying out the
+role of a third party intermediary that holds the payment in escrow
+for seller until buyer receives and accepts the deliverable, and that
+enforces the rules of the protocol in software, preventing one-sided
+gamesmanship.
+
+Pre-purchase activities such as match-making between buyer and seller,
+and negotiation or specification of deliverable and terms are excluded
+from the protocol except that the results can be included by reference
+as side data associated with the transaction.  That is, buyer finds
+seller and negotiates deliverables, schedule, shipping, pricing etc.,
+BEFORE initiating this protocol.
+
+Post-purchase activities such as warrantee service are also not
+included in the protocol but negotiated separately.
+
+The elements envisioned here include:
+
+* A suite of programs that implement the protocol, Purchaser facing
+  (the Buyer program), Vendor facing (the Seller program), and running
+  in the cloud (the Judge program).
+
+* App downloads for seller and buyer.
+
+* A Download link, for seller to copy to their site, pointing buyers
+  to download the buyer app, as part of:
+
+* A Terms link for seller to copy to their site enabling buyers in the
+  app to capture the encapsulated terms and submit them to the Buyer
+  program.
+
+* Transaction detail within the encapsulated terms record (with
+  deliverable specifications, pricing, shipping details,..) which are
+  posted by Vendor and stored by both Buyer and Seller programs, and a
+  hash thereof made part of the transaction record.
+
+* A standard contract between buyer and seller associated with this
+  ProtoContract software, asserting a particular court of competent
+  jurisdiction, describing the operation of the protocol, authorizing
+  the steps of the protocol to have legal force within the contract,
+  authorizing the judge's role, and requiring any court of competent
+  jurisdiction to interpret the transaction, in accordance with the
+  protocol, and admitting records of the activities, within the
+  protocol as admissible evidence in any dispute about the
+  transaction, and as prima facie determinative regarding the
+  agreement and actions of the parties not just in the sense of
+  software events, having occurred but in the sense of legal
+  enforceable obligations having been incurred and performance having
+  been carried out as agreed to in advance by the parties,
+  memorialized in writing including the writing of the protocol and
+  software and the encapsulated terms.
+
+Files in this directory include:
+
+
+Start with a simplest protocol that seems to do something, build from there.
+
+% make
+
+should run spin on buy.pml and show what it does.
+
+// 0.?: NOT INCLUDED: warrantee service requested after payment.
+//      No, that's not part of the original transaction; let it be later since it is later.
+
+README	    	   This file
+ProtoContract.txt  The contract template for the ProtoContract system
+
+buy.pml		   a link to whichever version of the promela protocol specification
+		   is being tested at the moment.
+buy0.1.pml	   No branching, first draft: offer, agreed, ntp, delivering, accepted, paid.
+buy0.2.pml	   Escrow payment at judge required before NTP.
+buy0.3.pml	   To clarify: terms negotiation is outside of the protocol;
+		   the seller's offering, description, price, delivery
+		   method are brought by buyer to the protocol.  So we
+		   just need buyer to send what they want (already
+		   gotten from seller) and seller to confirm that's
+		   good with them.
+
+
+buy0.4.pml     	   if buyer delays full payment past Judge's deadline can get 
+		   order cancelled and a refund.
+buy0.5.pml	   seller fails to perform, sends UTP to Judge who forwards it
+		   and refunds the buyer.
+buy0.6.pml	   return service requested upon arrival to handle broken in transit.
+		   Warrantee service is outside the purchase/sale event so not part
+ 		   of the protocol.
+makefile	   Lets you run "make" to build and run the protocol simulation
+		   for debugging purposes.  Use "spin -search buy.pml" to fully
+		   search all protocol paths for errors.
+		   

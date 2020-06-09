@@ -1,0 +1,38 @@
+Next steps:
+
+* Review ProtoContract.txt
+
+* Decide on a license, label the programs with the license.
+
+* buy0.7.pml to incorporate out-of-stock, money-back or accept delay
+  until date message cycle.
+
+* Implement buy.pml components in as web apps for buyer and seller,
+  and a cloud server for Judge.  Make it write transaction records to
+  some standard place.
+
+* Choose one or more crypto coins for the work.
+
+* Create an ethereum account for the Judge and for sample Vendor and Purchaser.
+
+* Create a link generator web app to use a form to create a form to
+  create a form.  Enumerate each possible term, allow Vendor to choose
+  what options to accept and what options to allow Purchaser to choose
+  among, including schedule, delivery, price, item, additions, perhaps
+  other options.  The idea is that Purchaser can sub-specify the
+  offered options, and then generate an acceptable offer (within
+  Seller's constraints), which will then populate a form with a submit
+  button labelled, maybe, ProtoGo, to check for the Purchaser-side
+  presence of the Buyer app, and once installed to then encapsulate
+  purchaser-accepted terms and submit them to the Buyer program for
+  confirmation by Seller.
+
+* Test system by creating a seller web page using the link generator,
+  then acting as buyer to specify an acceptable offer and submit it,
+  and walk through the ProtoContract.
+
+* Get a seller to use it, like on Craigslist.  Get a buyer to use it
+  to buy something.  Keep an anonymized record of transactions dates
+  amounts, a graph of volume over time.  Build a business out of it.
+
+* Talk to potential supporters to get some more energy behind it.

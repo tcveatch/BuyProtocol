@@ -1,0 +1,187 @@
+		Contract
+
+This contractual agreement defines the obligations of its parties,
+Buyer and Seller, with respect to a purchase and sale transaction.
+Significant details of the transaction are specified in associated
+electronic records including the following:
+
+    Buyer identity, Seller identity, deliverable
+    description/specifications, price, delivery methods, shipment
+    schedule, FOB terms, insurance, warrantee declaration and
+    limitations.
+
+Whereas since contracts are enforceable even if unwritten, the parties
+hereby agree this contract is enforceable though written in electronic
+form;
+
+Whereas contracts are enforceable even if parts thereof are in
+separate parts such as appendices, addenda, or separate agreements or
+documents included by reference, the parties hereby agree that this
+contract shall include separate records which together are to be
+interpreted by the parties and the court as a single, whole agreement;
+
+Whereas a purchase and sale transaction can involve multiple steps and
+branches, software which tracks the steps and enforces their logical
+sequence and relative priority and consequences is useful and valuable;
+
+Whereas the ProtoContract, BUY protocol is a design-level software
+description that has been verified to avoid flaws such as deadlocks,
+livelocks, non-progress timeouts;
+
+Therefore the parties engage and agree with each other to carry out
+the specified transaction, by following the steps of the Buy protocol,
+as validly implemented by a ProtoContract suite of software programs, 
+as follows:
+
+REGISTRATION: Purchaser shall enter Purchaser's legal name, contact
+information, electronic payment address, and shipping address in the
+ProtoContract Buyer program which shall identify Purchaser by name and
+address for the purposes of this Contract; Purchaser shall further
+check the Self or Authorized Representative button which having been
+checked and recorded shall for the purpose of this contract represent
+intentional communication of the user of the ProtoContract Buyer
+program asserting that said user is indeed themselves the Purchaser or
+has legal authority to bind the Purchaser, and that the Vendor shall
+be entitled to rely on these representations.
+
+Vendor shall enter Vendor's legal name, contact information, and
+electronic payment address into the ProtoContract Seller program which
+shall identify Vendor by name and contact information and payment
+method and payee address for the purposes of this Contract.
+
+(SHOPPING: This Contract does not govern how Vendor and Purchaser are
+to find each other and negotiate transaction details. As possibility
+but not constraint, it is here mentioned that Vendor may post one or
+more vendor-acceptable offers on suitable sites, apps, or media, etc.,
+for potential purchasers to discover and select, each specifying
+description of deliverables, quantity, shipping method, price,
+vendor-payable taxes etc.  Negotiations for an agreeable offer between
+potential vendor and potential buyer may follow any process or take
+any form, except that the result becomes input to the ProtoContract
+process submitted not by the Vendor but by the Purchaser.  If
+Purchaser received it from Vendor in the first place then Vendor need
+only confirm acceptance of what they in fact themselves proposed.)
+
+OFFER: Purchaser shall provide transaction details to the
+ProtoContract Buyer program, which shall include deliverable
+description and price and may include shipping information, schedule
+requirements, and other terms that Purchaser would agree if confirmed
+by Vendor, and if confirmed by Vendor through use of the ProtoContract
+Seller program so that it sends the Buy protocol's OFFERBUYER message
+to the Judge program, then these transaction details become part of,
+essential to, and enforceable within, this Contract.
+
+AGREEMENT: Vendor may then approve the Transaction Details by using
+Seller program to send the OFFERBUYER message thereby making the
+transaction details part of, essential to, and enforceable within this
+Contract.  Therefore if the Buyer-submitted offer has met with
+acceptance from the Seller program, then the parties are bound to
+complete the purchase and transaction according to the terms of this
+Contract in combination with, the Transaction Details.
+
+PAYMENT: This system is purchase-prepaid with Judge holding payment in
+escrow until buyer accepts.  After agreement, Buyer's next step is to
+pay the purchase amount, including any added transaction costs such as
+taxes, insurance, fees, etc.  Purchaser therefore shall use the Buyer
+program to submit payment to the Judge program to be held in escrow in
+an account associated with and controlled by the Judge program until
+the deliverable has been received and accepted, after which the Judge
+pays the Seller their due.  [[[]checkbox] No-Backout Clause: If
+Contract terms include the assertion that Buyer will be liable for
+payment not timely rendered under this Contract, then Vendor shall
+have the right to recover any unpaid payment amount plus triple
+damages in any court of competent jurisdiction by submitting a record
+of the transaction including Contract, transaction details, and
+message history demonstrating agreed amounts and amounts actually
+paid.]
+
+Purchaser's payment obligations shall be considered complete when the
+full amount due is recieved at the Judge program's electronic payment
+account. Vendor's payment rights shall be considered satisfied when
+the vendor-due amount is transferred to the vendor's electronic
+payment address by the Judge program after acceptance of the
+deliverable by Buyer.  Security of electronic payment accounts is the
+separate responsibility of the parties.  Payment of taxes is the
+responsibility of Vendor.
+
+Fees for the use of the ProtoContract system are 1% of transaction
+price before taxes, plus transaction costs such as ethereum gas or
+miner rewards etc. as appropriate, to carry out the transfers between
+Judge and Buyer and Seller.
+
+Shipment and insurance shall be prepaid by Vendor, reimbursed in the
+specified amounts after Buyer acceptance from proceeds.
+
+Seller shall notify Buyer when the deliverable is shipped.
+
+Without a No-backout Clause, if Buyer has indicated agreement but
+fails to pay, whether Buyer responds to a payment request with the
+BACKOUT message or the Judge's payment wait period times out, then
+Judge will inform Vendor the deal is cancelled and refund any received
+payment to Buyer's account less fees.
+
+If Contract includes a Guaranteed Performance clause, then Seller's
+inability to perform the contract after notice to proceed shall incur
+Seller liability for consequential damages to Buyer as Buyer is able
+to document in court; otherwise Seller will notify Judge with the UTP,
+unable to perform, message and Judge will refund Buyer's payment in
+full and Seller shall have no liability to Buyer for inability to
+perform.
+
+Upon delivery Purchaser shall inspect the deliverable and communicate
+the Reject or the Accept message through the Buyer program.  If
+Rejected, Vendor shall offer a return of merchandise through the
+Seller program, and shall ship a replacement upon receipt for
+inspection and acceptance according to this paragraph.
+
+AUTHORITY: Purchaser and Vendor hereby authorize Judge software and
+the ProtoContract service provider to perform the Judge's role in
+transferring funds, keeping records of messages and transaction
+information, and enforcing the protocol constraints with respect to
+this transaction. Purchaser and Vendor agree to cooperate with each
+other through the ProtoContract system, agree that the transaction
+between them is intended to be carried out through the operation of
+the ProtoContract syteem, and assert its validity and their agreement
+to its constraints before the court.  Purchaser and Vendor further
+agree that records of transaction information including transaction
+details and Buyer, Seller, and/or Judge activity records shall be
+admissible as evidence in any dispute related to the transaction and
+shall have the meaning ascribed to them within the ProtoContract
+process regarding the agreement and actions of the parties, not just
+in the sense of software events having occurred but in the sense of
+legal enforceable obligations having been incurred and performance
+having been carried out as agreed to in advance by the parties,
+memorialized in writing including as needed the source code of the
+protocol and the user interface elements of the software and the
+transaction details and encapsulated terms. The intent of the parties
+is that their behavior be enforceable by a court of competent
+jurisdiction in conformance with this Contract combined with the
+records of the transaction including its parties, payments,
+performance requirements dates, and other terms as recorded, once
+agreement is indicated within the system by offer and acceptance by
+Purchaser through the Buyer program and by Vendor through the Seller
+program.
+
+A court of competent jurisdiction for enforcement of this contract
+shall be King County Superior Court in the State of Washington, USA.
+The terms of this agreement shall be interpreted in the context of the
+laws of Washington State without reference to conflict of laws
+provisions.  Time is of the essence.  This Agreement shall bind and
+inure to the benefit of the parties hereto and to their assigns and
+successors in interest.
+
+Transaction details are incorporated herein by reference and the court
+is instructed to consider the whole as one Agreement.
+
+EXECUTION: Execution of this Contract on behalf of Vendor and
+Purchaser shall be by electronic acceptance of agreement within the
+protocol as indicated by registered user operating ProtoContract
+Seller and Buyer software.  Vendor and Purchaser by making such
+agreement occur within the ProtoContract software thereby execute this
+Agreement and all its terms whether from this document or from the
+transaction details.
+
+TERM: This Agreement shall be valid from the date of execution and
+bind the parties until their performance obligations hereunder are
+completed.
+

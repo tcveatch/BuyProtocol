@@ -1,0 +1,83 @@
+I put down a few bucks for Ethereum and Bitcoin in 2017, thinking this
+might be a nice technology to play with.
+
+I tried to buy some Ethereum names, to simplify addressing, but my
+MetaMask Chrome extension sent my money into the ether but didn't
+deliver me the names I thought I was getting.  What happens when you
+try to carry out a transaction and there is no support, noone says
+they got the money, you don't get your product, you don't have a
+chance to say you accept the deliverable, there's all kinds of
+potential fraud and mistakes.
+
+Ecommerce using these crypto seems to need a structured interface
+where buyer and seller can interact, money change hands, but subject
+to a legally enforceable contract with terms that are understandable
+to a court of enforcement and to the participants themselves, and
+following a standard procedure the outcomes are predictable.
+
+I wrote a protocol for this in Promela, verified it has no deadlocks
+or livelocks or hung states.  Next step is implementation in web apps
+and web services and some crypto coin.  Incidentally it seems wise to
+have a trusted third party as escrow holder and process enforcer and
+judge; this is also a way to monetize such a system, by charging fees
+and also by holding escrow funds.
+
+I can't go a lot further without some feedback and support. There are
+multiple languages to learn, programs to write, accounts to set up,
+and sales to close for this to become a business, and getting from
+here to there needs more than me in my living room.
+
+So: What do you think?
+
+Alex:
+Search for escrow offering solutions in the crypto space,
+escrow is a common concept so probably already implemented and people using it.
+So search.
+
+The question: who holds the currency?  A monetary liicense from the
+state because you essentially become a bank, it's an expensive
+proposition.  Coinbase and bitrex, only,
+because binance and kraken didn't get th emonetaru licensee,
+because each staate has its rules and regulations becausee crypto is an asset.
+
+Because you're offering an escrow service they'll say you are a bank.
+Then it's state by state in the US, can't use it in the US.
+Because you are holding the assets.
+
+Hardware wallets, they are holding it, it's not in Alex's possession.
+If you structure the Tx one key removed, so I don't have full access to the funds
+until a key is given by a participant, make it a private key witho a part missing
+and only when the secret code passes by then can't assemble it yourself.
+
+Learn about falling under
+money transmit license.
+Search for cryptocurrency transmit license in different states. It has been published.
+
+Between
+Volatility is an issue, so look for stable-coins pegged to a dollar.
+Every transfer is a transaction fee.  If you calculate the fees, could be >3%.
+Still not prevalent.
+
+Could be ramification to scanning QR codes into an App to do that kind of stuff.
+
+Secure tx is important. Definitely a needed thing.  There may be
+services people doing it already.
+
+Alex says aim at bitcoin because there are bitcoin maximalists, consider their pitch.
+Proper addressee is clear in BTC, not so much in Ether.
+Perhaps the expectation is for micro accouunts in ETH but
+several bitcoin groups discuss in Seattle meeting here.
+Two of Alex's folks are contributing to Bitcoin core, building up the protocol and
+improvements.  For the business sense,
+
+go to github, look for escrow for bitcoin.  I know there are, I came
+across a few of them I'm sure.  Maybe even coinbase offers it as an
+option.
+
+License hold, release, transmit funds.
+
+Could put me in touch with john or brandon to talk about progamming and bitcoin core.
+
+bitcore community go to the bitcoin core, they think they are superior to anything else.
+
+

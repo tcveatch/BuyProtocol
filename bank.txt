@@ -1,0 +1,108 @@
+Does ProtoContract require that judge be the responsibility of a bank?
+
+A bank is a LLC or corporation that recieves and holds deposits.
+
+Is this an escrow?
+    If so then the structure looks right and can be incorporated into the Contract
+    as instructions to judge as escrow agent.
+    
+Is an escrow necessarily a deposit?
+
+
+-----------------------------------------------------------------
+stimmel-law.com/en/articles/basics-law-and-practice-escrow
+
+An escrow agent is also called a depositary.
+Requires an escrow agreement.
+The escrow agent has a fiduciary relationship to the parties.
+
+This duty includes:
+
+   * taking reasonable efforts to ascertain the identity of the named
+     parties to the transaction.
+
+   * disclose to the parties anything needed to prevent loss to the
+     party.
+
+   * refund to grantor required for non-performance.
+
+   * no duties until the deposit is made.
+
+Escrow agreement must include names of parties and name/address of the
+depositary.
+
+
+
+
+"Only when real estate or securities are involved do the far more
+complex rules imposed by the government become active.  The role of
+escrow holder however invariably involves a contractual set of
+instructions and a fiduciary duty."
+-----------------------------------------------------------------
+
+investopedia:
+an escrow agent is often a notary or an attorney.
+
+Thus not a bank.
+------------------------------------------------------------
+
+https://medium.com/coinmonks/escrow-service-as-a-smart-contract-the-business-logic-5b678ebe1955
+and
+https://medium.com/coinmonks/escrow-service-as-a-smart-contract-the-execution-26bafece6814
+by Jackson Ng
+
+describes Safe Remote Purchase as something you can code yourself
+using Solidity, Remix, MetaMask.  Ugh. Also it uses no-backout double
+escrow putting 2x the transaction amount in from both sides before
+shipment, which seems excessive.  Also there's no evident actual user
+facing client programs and their interaction with each other nor the
+blockchain, specifically.  It ends up with an unbelieveably complex
+rigmarole of starting up MetaMask as both roles, having a demo
+ethereum blockchain to work on, having a compiler and poster to put
+his code into the blockchain, and walking through it from the two
+metamask sides.  But it does give some detail useful here, in that
+there is a record with the transaction detail in it, and a hash of
+that goes on the blockchain to record the legal contract.
+
+Elsewhere the same author points out that the user will have an
+ethereum wallet app charged up with with some ETH and it'll pop up at
+the right time when the client says Send ETH.  Okay that's some
+subsystem interaction to be sure about.
+
+Next, elsewhere the same author says Chrome, MetaMask, a URL, and some
+ETH in an ethereum account is enough to run a smart contract choosing
+among different blockchains (Main Ethereum and other testnets).
+
+jacksonng.org/ethereum-metamask walks through Google Cloud ->
+Rent/Startup a Compute Engine -> install Ubuntu -> install stuff
+including apache(tcp:80), node and geth(tcv:8545).
+
+-----------------------------------------------------------------
+https://blog.localcryptos.com/how-our-escrow-smart-contract-works/
+
+has an LocalEthereum smart contract with escrow for trades not
+involving real-world goods or services.  In browser ethereum wallet
+funds the transaction, or copy in your ethereum wallet data to use
+that. Seller pays gas, imaginably $0.10.  Buyer has a UI view of the
+funded contract and can click Release escrow.
+
+-----------------------------------------------------------------
+
+Another scenario is that the buyer can spin up an instance of
+ProtoContract which is just a smart contract with associated data, no
+skin-in-the-game sponsor, and get the benefit of Judge-like service
+without fees or attention from any other person.  Then ProtoContract
+just has to be out there, whether in the blockchain or as dead files
+in a filesystem in the cloud, then the ethereum machine will either
+
+  A) run the protocol itself, with the steps of the protocol being
+     steps in the ethereum machine including the communications with
+     the Buyer and Seller UI clients.
+
+  B) record data documenting the details, state, and progress of the protocol
+     w.r.t. a given transaction, while the judge is a cloud service off the
+     blockchain in the cloud,  acquiring trust as it gets used over time.
+
+In (B) any blockchain will do, and any cryptocurrency will do. Let the
+protocol evolve to the point of value exchange off blockchain, and
+then move the currency on chain.  For example.
