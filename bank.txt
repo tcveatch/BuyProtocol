@@ -84,7 +84,9 @@ has an LocalEthereum smart contract with escrow for trades not
 involving real-world goods or services.  In browser ethereum wallet
 funds the transaction, or copy in your ethereum wallet data to use
 that. Seller pays gas, imaginably $0.10.  Buyer has a UI view of the
-funded contract and can click Release escrow.
+funded contract and can click Release escrow.  One side often is
+blocked on having an address, a wallet, some ether, and the ability to
+connect that to this UI.  The trasnaction detail on the ethereum blockchain is 
 
 -----------------------------------------------------------------
 
